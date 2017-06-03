@@ -1,6 +1,6 @@
 {
   "name": "c-chat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Secure Chat",
   "scripts": {
     "chat-start": "clear && bin/cchat start",

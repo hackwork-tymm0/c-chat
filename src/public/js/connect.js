@@ -174,8 +174,6 @@ function getMessages () {
 
 			var parsedData = JSON.parse(data);
 
-			console.log(parsedData.list);
-
 			if (parsedData.response === "getMessagesSuccess") {
 
 				usersKeys = parsedData.newKeys;

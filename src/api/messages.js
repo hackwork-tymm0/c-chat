@@ -1,7 +1,6 @@
 
 const url = require("url");
 const log = require("../log");
-const nameSettings = require("../settings/chatname.json").chatname;
 
 let ListMessages = [];
 
@@ -21,11 +20,11 @@ function decodeBase64 (s) {
 function addNameServer () {
 
 	ListMessages.push('chat:');
-	ListMessages.push('chat:	' + nameSettings);
+	ListMessages.push('chat: 	CChat');
 	ListMessages.push('chat:');
 	ListMessages.push('chat:		Chat started!');
 	ListMessages.push('chat:');
-	ListMessages.push('chat:============================');
+	ListMessages.push('chat:s============================');
 
 }
 

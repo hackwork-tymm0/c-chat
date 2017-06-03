@@ -7,18 +7,22 @@ Secure and lightweight chat for local networks
 ```
 $ npm install c-chat -g
 ```
+... or
+```
+$ git clone https://github.com/hackwork-tymm0/c-chat.git && cd c-chat && npm install -g
+```
 
 ## How to use?
 -------------------------------------------
 
 To start select the port
 ```
-$ c-chat set-port=PORT_NUMBER
+$ sudo c-chat set-port=PORT_NUMBER
 ```
 
-Select name for you chat
+And start 
 ```
-$ c-chat set-name=CHAT_NAME	 
+$ c-chat start
 ```
 
 And browse your server

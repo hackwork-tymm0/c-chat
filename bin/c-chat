@@ -66,22 +66,6 @@ switch (arg) {
 
 				}
 
-			break
-
-			case "set-name":
-
-				if (command.arg) {
-
-					cli.setName(command.arg);
-
-				} else {
-
-					console.log("");
-					console.log("	Please, enter name");
-					console.log("");
-
-				}
-
 			break;
 
 			default:

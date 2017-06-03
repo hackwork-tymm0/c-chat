@@ -23,6 +23,6 @@
     "jsonfile": "^3.0.0"
   },
   "bin": {
-    "cchat": "./bin/cchat"
+    "c-chat": "./bin/c-chat"
   }
 }

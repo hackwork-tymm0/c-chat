@@ -106,7 +106,7 @@ module.exports = {
 		console.log("");
 		console.log("Listen on port " + port);
 		console.log("");
-		console.log("	Please, check http://" + ip + ":" + port + "/chat in browser2");
+		console.log("	Please, check http://" + ip + ":" + port + "/chat in browser");
 		console.log("");
 
 	},
@@ -116,7 +116,7 @@ module.exports = {
 		console.log();
 		console.log("	" + pkg.name + " v" + pkg.version);
 		console.log("");
-		console.log("	Usage: cchat [command]");
+		console.log("	Usage: c-chat [command]");
 		console.log("");
 		console.log("		h, help - help");
 		console.log("		v, version - version this programm");
@@ -128,7 +128,7 @@ module.exports = {
 	notFound: () => {
 
 		console.log("");
-		console.log("	cchat: command not found");
+		console.log("	c-chat: command not found");
 		console.log("");
 
 	}

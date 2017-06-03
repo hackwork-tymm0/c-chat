@@ -1,0 +1,42 @@
+
+.menu {
+	position: absolute;
+	width: 100%;
+	height: 10%;
+	background: #212121;
+}
+
+.menu h1 {
+	float: left;
+	color: #FFFFFF;
+	margin-top: 15px;
+	margin-left: 15px
+}
+
+.menu input {
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 25px;
+	font-family: Arial, sans-serif;
+	color: #fff;
+	float: right;
+	height: 95%;
+	width: 95%;
+}
+
+::-webkit-input-placeholder {
+	color: #FFFFFF;
+}
+
+::-moz-placeholder {
+	color: #FFFFFF;
+}
+
+:-moz-placeholder {
+	color: #FFFFFF;
+}
+
+:-ms-input-placeholder {
+	color: #FFFFFF;
+}

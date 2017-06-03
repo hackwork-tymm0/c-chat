@@ -1,0 +1,28 @@
+{
+  "name": "c-chat",
+  "version": "1.0.0",
+  "description": "Secure Chat",
+  "scripts": {
+    "chat-start": "clear && bin/cchat start",
+    "chat-help": "clear && bin/cchat help",
+    "chat-version": "clear && bin/cchat version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackwork-tymmo/c-chat"
+  },
+  "keywords": [
+    "secure",
+    "chat",
+    "programmers-chat"
+  ],
+  "author": "tymm0",
+  "license": "MIT",
+  "dependencies": {
+    "ip": "^1.1.5",
+    "jsonfile": "^3.0.0"
+  },
+  "bin": {
+    "cchat": "./bin/cchat"
+  }
+}

@@ -1,0 +1,97 @@
+#!/usr/bin/env node
+
+const programm = require("../src/chat");
+const cli = require("../src/settingscli");
+
+var arg = process.argv[2];
+
+switch (arg) {
+
+	case undefined:
+
+		programm.help();
+
+	break
+
+	case "version":
+
+		programm.version();
+
+	break;
+
+	case "v":
+
+		programm.version();
+
+	break;
+
+	case "start":
+	
+		programm.start();
+
+	break;
+
+	case "help":
+
+		programm.help();
+
+	break;
+
+	case "h":
+
+		programm.help();
+
+	break;
+
+	default:
+
+		let command = {
+			text: arg.split("=")[0],
+			arg: arg.split("=")[1]
+		}
+
+		switch (command.text) {
+
+			case "set-port":
+
+				if (command.arg) {
+
+					cli.setPort(parseInt(command.arg, 10));
+
+				} else {
+
+					console.log("");
+					console.log("	Please, enter port");
+					console.log("");
+
+				}
+
+			break
+
+			case "set-name":
+
+				if (command.arg) {
+
+					cli.setName(command.arg);
+
+				} else {
+
+					console.log("");
+					console.log("	Please, enter name");
+					console.log("");
+
+				}
+
+			break;
+
+			default:
+
+				programm.notFound();
+
+			break;
+
+		}
+
+	break;
+
+}

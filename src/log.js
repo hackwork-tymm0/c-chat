@@ -121,6 +121,7 @@ module.exports = {
 		console.log("		h, help - help");
 		console.log("		v, version - version this programm");
 		console.log("		start - start this chat");
+		console.log("		set-port=NUMBER_PORT - set port for server");
 		console.log("");
 
 	},
